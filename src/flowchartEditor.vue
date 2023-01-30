@@ -54,12 +54,12 @@
 
 <script>
 import VueFlowchartEditor, { Flow, RegisterEdge } from './index'
-import EditorToolbar from './components/Toolbar'
-import EditorItemPanel from './components/ItemPanel'
-import EditorDetailPanel from './components/DetailPanel'
-import EditorMinimap from './components/EditorMinimap'
-import EditorContextMenu from './components/ContextMenu'
-import CustomCommand from './components/CustomCommand'
+import EditorToolbar from './userComponents/Toolbar'
+import EditorItemPanel from './userComponents/ItemPanel'
+import EditorDetailPanel from './userComponents/DetailPanel'
+import EditorMinimap from './userComponents/EditorMinimap'
+import EditorContextMenu from './userComponents/ContextMenu'
+import CustomCommand from './userComponents/CustomCommand'
 import { throttle } from 'lodash'
 
 export default {
